@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 #title{
   background-color: #4aaaa5;
   color: white;
@@ -22,9 +27,11 @@ nav{
 
 .background{
   background-image: url(circles-light.png);
-  height: 600px;
+  height: 1000px;
   width: 100%;
   position: relative;
+  margin-left: auto;      
+  margin-right: auto; 
 }
 .container{
   position: absolute;
@@ -148,10 +155,11 @@ input{
 
 .footer{
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
 }
+
 
 footer{
   height: 100px;
@@ -224,21 +232,106 @@ footer{
   -webkit-filter: none;
 }
 
-/*#logo{
-  border-radius: 100%;
-  height: 75px;
-  width: 75px;
-  margin: -80px 70px -60px -20px;
-  float: right;
-}*/
+
+
+/* Media Screen */
+
+@media screen and (max-width: 980px){
+  #bio-image{
+    max-width: 100%;
+    width: 200px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    float: none;
+  }
+  #about-me{
+    width: 300px;
+    margin-bottom: 100px;
+  }
+ }
+/*  }
+
+aside{
+  width: 20%;
+  text-align: center;
+  margin: 10px;
+}
+
+aside, .tables{
+  border: 2px solid gray;  
+} 
+
+div, .tables{
+  background-color: white;
+  width: 80%;
+  padding: 0;
+  margin: 10px;
+}
+
+h2, h3 {
+  color: #4aaaa5;
+  border-bottom: solid 2px grey;
+  font-size: 20px;
+  margin:0;
+}
+p {
+  text-align: center;
+  text-align-last: auto;
+  text-indent: 50px;
+}
+*/
+
+/*  .container{
+    height: 10px;
+}
+  #title{
+    background-color: #4aaaa5;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto 0;*/
+ /* }
+  nav{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+.background{
+  background-image: url(circles-light.png);
+  height: auto;
+  width: 100%;
+  position: fixed;
+}
+
+#about-me{
+  width: 200px;
+  height: auto;
+  line-height: 2;
+  padding: auto;
+  font-size: 1rem;
+  float: left;
+}
 
 
 
+  header{
+    position: none;
+  }
+}
 
+@media screen (max-width: 768px){
+  
+}
 
-
-
-
+@media screen (max-width: 640px){
+  
+}
+*/
 
 
 

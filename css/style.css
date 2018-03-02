@@ -1,301 +1,306 @@
 html, body {
-height : 100%;
-margin : 0;
-}
+  height : 100%;
+  margin : 0;
+  }
 #title {
-background-color : #4aaaa5;
-color : white;
-font-family : Georgia, 'Times New Roman', Times, serif;
-padding : 10px 25px 10px 25px;
-margin : auto 0;
-}
+  background-color : #4aaaa5;
+  color : white;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  padding : 10px 25px 10px 25px;
+  margin : auto 0;
+  }
 header {
-font-family : Arial, Helvetica, sans-serif;
-position : relative;
-}
+  font-family : Arial, Helvetica, sans-serif;
+  position : relative;
+  }
 nav {
-position : absolute;
-right : 0;
-bottom : 0;
-border : none;
-padding-bottom : 40px;
-margin-right : 300px;
-}
+  position : absolute;
+  right : 0;
+  bottom : 0;
+  border : none;
+  padding-bottom : 40px;
+  margin-right : 300px;
+  }
 .background {
-background-image : url(circles-light.png);
-height : 1000px;
-width : 100%;
-position : relative;
-margin-left : auto;
-margin-right : auto;
-}
+  background-image : url(circles-light.png);
+  height : 1000px;
+  width : 100%;
+  position : relative;
+  margin-left : auto;
+  margin-right : auto;
+  }
 .container {
-position : absolute;
-width : 100%;
-}
+  position : absolute;
+  width : 100%;
+  }
 aside {
-width : 33.3%;
-float : left;
-text-align : center;
-margin : 10px;
-}
+  width : 33.3%;
+  float : left;
+  text-align : center;
+  margin : 10px;
+  }
 aside, .tables {
-border : gray solid 2px;
-}
+  border : gray solid 2px;
+  }
 div, .tables {
-background-color : white;
-width : fit-content;
-padding : 20px;
-margin : 20px;
-}
+  background-color : white;
+  width : fit-content;
+  padding : 20px;
+  margin : 20px;
+  }
 h2, h3 {
-color : #4aaaa5;
-font-family : Georgia, 'Times New Roman', Times, serif;
-border-bottom : 2px solid grey;
-font-size : 30px;
-margin : 0;
-}
-h4 {
-color : #fff;
-padding : 40px;
-}
+  color : #4aaaa5;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  border-bottom : 2px solid grey;
+  font-size : 30px;
+  margin : 0;
+  }
+  h4 {
+  color : #fff;
+  padding : 40px;
+  }
 h5 {
-font-size : 20px;
-text-align : left;
-margin : 0;
-color : grey;
-}
+  font-size : 20px;
+  text-align : left;
+  margin : 0;
+  color : grey;
+  }
 p {
-text-align : justify;
-text-align-last : auto;
-text-indent : 50px;
-}
+  text-align : justify;
+  text-align-last : auto;
+  text-indent : 50px;
+  }
 a {
-border : none;
-padding-right : 10px;
-padding-left : 10px;
-color : grey;
-}
+  border : none;
+  padding-right : 10px;
+  padding-left : 10px;
+  color : grey;
+  }
 a:visited {
-color : #4aaaa5;
-}
+  color : #4aaaa5;
+  }
 a:hover {
-color : grey;
-}
+  color : grey;
+  }
 .social-media {
-width : 60px;
-margin : 10px -10px;
-}
+  width : 60px;
+  margin : 10px -10px;
+  }
 img:hover {
-transition : all 0.5s ease;
-}
+  transition : all 0.5s ease;
+  }
 img:hover {
-border-radius : 50%;
-transform : rotate(360deg);
-}
+  border-radius : 50%;
+  transform : rotate(360deg);
+  }
 input, textarea, fieldset {
-color : #4aaaa5;
-font-family : Arial, Helvetica, sans-serif;
-height : 35px;
-width : 590px;
-font-size : 10px;
-}
+  color : #4aaaa5;
+  font-family : Arial, Helvetica, sans-serif;
+  height : 35px;
+  width : 590px;
+  font-size : 10px;
+  }
 button {
-border : #666 solid 1px;
-color : #fff;
-background : #4aaaa5;
-width : 100px;
-padding : 10px;
-margin : 10px;
-}
+  border : #666 solid 1px;
+  color : #fff;
+  background : #4aaaa5;
+  width : 100px;
+  padding : 10px;
+  margin : 10px;
+  }
 #message {
-width : 500px;
-height : 200px;
-}
+  width : 500px;
+  height : 200px;
+  }
 textarea {
-width : 590px;
-height : 200px;
-border : hidden;
-}
+  width : 590px;
+  height : 200px;
+  border : hidden;
+  }
 input {
-border : none;
-}
+  border : none;
+  }
 .footer {
-text-align : center;
-font-size : 14px;
-font-family : Georgia, 'Times New Roman', Times, serif;
-color : white;
-}
+  text-align : center;
+  font-size : 14px;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  color : white;
+  }
 footer {
-height : 100px;
-background-color : #666666;
-border-top : 9px solid #4aaaa5;
-}
+  height : 100px;
+  background-color : #666666;
+  border-top : 9px solid #4aaaa5;
+  }
 #about-me {
-width : 650px;
-line-height : 2;
-padding-left : 25px;
-padding-top : 0;
-font-size : 14px;
-float : left;
-}
+  width : 650px;
+  line-height : 2;
+  padding-left : 25px;
+  padding-top : 0;
+  font-size : 14px;
+  float : left;
+  }
 #folio-content {
-width : 800px;
-height : 370px;
-background-color : transparent;
-}
+  width : 800px;
+  height : 370px;
+  background-color : transparent;
+  }
 .morph {
-float : left;
-width : 150px;
-height : 150px;
-margin : 10px;
-padding : 10px;
-overflow : visible;
-background : #4aaaa5;
-}
+  float : left;
+  width : 150px;
+  height : 150px;
+  margin : 10px;
+  padding : 10px;
+  overflow : visible;
+  background : #4aaaa5;
+  }
 .morph {
-transition : all 0.5s ease;
-}
+  transition : all 0.5s ease;
+  }
 .morph:hover {
-border-radius : 50%;
-transform : rotate(360deg);
-}
+  border-radius : 50%;
+  transform : rotate(360deg);
+  }
 #hidden {
-visibility : hidden;
-}
+  visibility : hidden;
+  }
 #bio-image {
-width : 200px;
-float : left;
-margin : 10px;
-border-radius : 0;
-transform : none;
-transition : none;
-}
+  width : 200px;
+  float : left;
+  margin : 10px;
+  border-radius : 0;
+  transform : none;
+  transition : none;
+  }
 @media screen and (max-width:980px) {
-#bio-image {
-max-width : 100%;
-width : 200px;
-margin-left : 40px;
-margin-bottom : 0;
-float : none;
-}
-#about-me {
-width : 300px;
-margin-bottom : 100px;
-}
-nav {
-margin-right : auto;
-}
-input, textarea, fieldset {
-color : #4aaaa5;
-font-family : Arial, Helvetica, sans-serif;
-height : 35px;
-width : 250px;
-font-size : 12px;
-}
-#message {
-width : 200px;
-height : 200px;
-}
-nav {
-margin-right : auto;
-}
-.morph {
-width : 150px;
-height : 150px;
-margin : 10px;
-padding : 10px;
-background : #4aaaa5;
-}
-#hidden {
-display : none;
-}
-#folio-content {
-width : 300px;
-height : 370px;
-background-color : transparent;
-}
-.background {
-height : 1500px;
-}
-}
+    #bio-image {
+      max-width : 100%;
+      width : 200px;
+      margin-left : 40px;
+      margin-bottom : 0;
+      float : none;
+      }
+    #about-me {
+      width : 300px;
+      margin-bottom : 100px;
+      }
+  nav {
+    margin-right : auto;
+    }
+  input, textarea, fieldset {
+    color : #4aaaa5;
+    font-family : Arial, Helvetica, sans-serif;
+    height : 35px;
+    width : 250px;
+    font-size : 12px;
+    }
+  #message {
+    width : 200px;
+    height : 200px;
+    }
+  nav {
+    margin-right : auto;
+    }
+  .morph {
+    width : 150px;
+    height : 150px;
+    margin : 10px;
+    padding : 10px;
+    background : #4aaaa5;
+  }
+  #hidden {
+    display : none;
+  }
+  #folio-content {
+    width : 300px;
+    height : 370px;
+    background-color : transparent;
+  }
+  .background {
+    height : 1500px;
+    }
+  }
 @media screen and (max-width:768px) {
-#bio-image {
-max-width : 100%;
-width : 200px;
-margin-left : 40px;
-margin-bottom : 0;
-float : left;
-}
-#about-me {
-width : 550px;
-margin-bottom : auto;
-}
-nav {
-margin-right : auto;
-}
-.tables {
-width : 550px;
-margin : 10px;
-}
-input, textarea, fieldset {
-color : #4aaaa5;
-font-family : Arial, Helvetica, sans-serif;
-height : 35px;
-width : 430px;
-font-size : 12px;
-}
-#message {
-width : 200px;
-height : 200px;
-}
-nav {
-margin-right : auto;
-}
-}
+  #bio-image {
+    max-width : 100%;
+    width : 200px;
+    margin-left : 40px;
+    margin-bottom : 0;
+    float : left;
+    }
+  #about-me {
+    width : 550px;
+    margin-bottom : auto;
+    }
+  nav {
+    margin-right : auto;
+    }
+  .tables {
+    width : 550px;
+    margin : 10px;
+    }
+  input, textarea, fieldset {
+    color : #4aaaa5;
+    font-family : Arial, Helvetica, sans-serif;
+    height : 35px;
+    width : 430px;
+    font-size : 12px;
+    }
+  #message {
+    width : 200px;
+    height : 200px;
+    }
+  #folio-content{
+    width: 550px;
+    height: auto;
+
+  }
+  nav {
+  margin-right : auto;
+  }
+  }
 @media screen and (max-width:640px) {
-#bio-image {
-max-width : 100%;
-width : 200px;
-margin-left : 40px;
-margin-bottom : 0;
-float : none;
-}
-#about-me {
-text-align : center;
-width : 350px;
-}
-nav {
-text-align : center;
-padding-left : 20px;
-padding : 10px;
-position : initial;
-}
-#title {
-text-align : center;
-}
-.tables {
-width : 350px;
-margin-left : 125px;
-}
-.background {
-height : 1200px;
-}
-div {
-width : 100%;
-}
-input, textarea, fieldset {
-color : #4aaaa5;
-font-family : Arial, Helvetica, sans-serif;
-height : 35px;
-width : 300px;
-font-size : 12px;
-}
-#message {
-width : 200px;
-height : 200px;
-}
-nav {
-margin-right : auto;
-}
-}
+  #bio-image {
+  max-width : 100%;
+  width : 200px;
+  margin-left : 40px;
+  margin-bottom : 0;
+  float : none;
+  }
+  #about-me {
+  text-align : center;
+  width : 350px;
+  }
+  nav {
+  text-align : center;
+  padding-left : 20px;
+  padding : 10px;
+  position : initial;
+  }
+  #title {
+  text-align : center;
+  }
+  .tables {
+  width : 350px;
+  margin-left : 125px;
+  }
+  .background {
+  height : 1200px;
+  }
+  div {
+  width : 100%;
+  }
+  input, textarea, fieldset {
+  color : #4aaaa5;
+  font-family : Arial, Helvetica, sans-serif;
+  height : 35px;
+  width : 300px;
+  font-size : 12px;
+  }
+  #message {
+  width : 200px;
+  height : 200px;
+  }
+  nav {
+  margin-right : auto;
+  }
+  }

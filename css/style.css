@@ -152,7 +152,7 @@ footer{
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 #portfolio-div{
   width: 600px;
@@ -245,13 +245,20 @@ footer{
     nav {
       margin-right: 40px;
       } 
+    #portfolio-div{
+      width : 300px;
+      margin-bottom : 100px;
+      font-size: 12px;
+      }
+   #folio-content {
+   text-align: : center;
+    width : 300px;
+    height : 370px;
+    background-color : transparent;
+    margin-left: 40px;
+  }
 
-
-
-
-
-
-/*  input, textarea, fieldset {
+  input, textarea, fieldset {
     color : #4aaaa5;
     font-family : Arial, Helvetica, sans-serif;
     height : 35px;
@@ -273,15 +280,13 @@ footer{
   #hidden {
     display : none;
   }
-  #folio-content {
-    width : 300px;
-    height : 370px;
-    background-color : transparent;
-  }
+
+
+
   .background {
     height: 1100px;
     }
-  }*/
+  }
 @media screen and (max-width:768px) {
   #bio-image {
     max-width : 100%;
@@ -303,6 +308,19 @@ footer{
   .background{
     height: 900px;
   }
+
+  #portfolio-div{
+   width: 600px;
+   height: 500px;
+   margin : 20px;
+   }
+  #folio-content{
+  width: 500px;
+  height: 400px;
+  background-color: transparent;
+  display: inline;
+}
+
 
 
 
@@ -359,8 +377,24 @@ footer{
   }
   .container{
     width: 100%;
-   
   }
+
+  #portfolio-div{
+  width : 400px;
+  height: 1100px;
+  margin: 20px;
+  margin-left: 95px;
+  }
+
+   #folio-content{
+    width: 550px;
+    height: auto;
+    float: none;
+  }
+.morph{
+  float: none;
+  margin-left: 95px;
+}
 
   nav {
   text-align : center;
@@ -370,14 +404,14 @@ footer{
   }
   #title {
   text-align : center;
-  width: 100%;
+  width: 150%;
   }
   .tables {
   width : 350px;
   margin-left : 125px;
   }
   .background {
-  height : 1200px;
+  height: 1500px;
   }
   div {
   width : 100%;
@@ -395,6 +429,9 @@ footer{
   }
   nav {
   margin-top: 20px;
-  margin-left: 95px;
+  margin-left: 29%;
   }
-  }
+
+footer{
+  width: 150%;
+  }}

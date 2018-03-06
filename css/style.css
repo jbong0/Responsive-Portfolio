@@ -349,8 +349,7 @@ footer{
   }
 @media screen and (max-width:640px) {
   .background{
-    height: 1500px;
-    width: 640px;
+    width: 960px;
     align-items: center;
   }
   #bio-image {
@@ -379,11 +378,20 @@ footer{
     width: 100%;
   }
 
+  .title{
+    text-align: center;
+  }
+
   #portfolio-div{
   width : 400px;
   height: 1100px;
   margin: 20px;
   margin-left: 95px;
+  }
+
+  #contact-div{
+    width: 350px;
+    height:500px;
   }
 
    #folio-content{
@@ -403,7 +411,6 @@ footer{
   position : initial;
   }
   #title {
-  text-align : center;
   width: 150%;
   }
   .tables {
@@ -414,7 +421,6 @@ footer{
   height: 1500px;
   }
   div {
-  width : 100%;
   }
   input, textarea, fieldset {
   color : #4aaaa5;

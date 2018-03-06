@@ -330,25 +330,37 @@ footer{
   margin-right: 40px;
   }
 @media screen and (max-width:640px) {
+  .background{
+    height: 1500px;
+    width: 640px;
+    align-items: center;
+  }
   #bio-image {
   max-width : 100%;
   width : 200px;
-  margin-left : 40px;
-  margin-bottom : 0;
-  float : none;
+  margin: 0 100px;
+  margin-bottom: 10px;
+  position: relative;
   }
   #about-me, .side-nav{
   width : 400px;
+  height: 800px;
+  margin: 20px;
+  margin-left: 95px;
   }
   .side-nav{
-    float: none;
-    margin-top: 20px;
-    padding: 0;
-
+    width: 400px;
+    margin: 20px;
+    height: auto;
+    margin-left: 95px;
   }
-
-
-
+  .tables{
+    height: 100px;
+  }
+  .container{
+    width: 100%;
+   
+  }
 
   nav {
   text-align : center;
@@ -358,6 +370,7 @@ footer{
   }
   #title {
   text-align : center;
+  width: 100%;
   }
   .tables {
   width : 350px;
@@ -381,6 +394,7 @@ footer{
   height : 200px;
   }
   nav {
-  margin-right : auto;
+  margin-top: 20px;
+  margin-left: 95px;
   }
   }

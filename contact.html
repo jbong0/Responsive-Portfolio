@@ -1,73 +1,74 @@
-<!-- Responsive Portfolio/Media Queries -->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>About | Jessie Ramirez</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
-  <body>
-    <section class="container">
-    <header>
-      <div id="title" class="header">
-        <h1>Jessie Ramirez</h1>
-      </div>
+<div class="wrapper">
 
+  <header id="header">
+    <div class="container">
+      <a href="index.html" id="logo">Jessie Ramirez</a>
       <nav>
-        <a href="index.html"> About</a>  |
-        <a href="portfolio.html"> Portfolio</a> |
-        <a href="contact.html"> Contact</a> 
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section class="background">
-      <div class="tables" id="contact-div">
-      <h2>Contact</h2>
-        <form id="contact" action="" method="post">
-          <h5>Name:</h5>
-          <fieldset>
-          <input placeholder="Your name" type="text" required autofocus>
-          </fieldset>
-          <h5>E-mail:</h5>
-          <fieldset>
-          <input placeholder="Your Email Address" type="email" required>
-          </fieldset>
-         <h5>Message:</h5>
-          <fieldset id="message">
-          <textarea placeholder="Type your Message Here...." required></textarea>
-          </fieldset>
-          </form>  
-          <button type="button">Submit</button>
-      </div>
 
-      <aside class="side-nav">
-          <h3>Connect with Me</h3>
-            <a href="https://github.com/jbong0" target="_blank">
-              <img class="social-media" src="images/githublogo.png" alt="Git Hub Logo"></a>
-            <a href="https://www.linkedin.com/in/jessiebon/" target="_blank">
-              <img class="social-media" src="images/linkedinlogo.png" alt="Linked In Logo"></a>
-          <a href="https://stackoverflow.com/users/9216731/jessiebon" target="_blank">
-              <img class="social-media" src="images/overflowlogo.png" alt ="Stack Overflow Logo"></a>
-      </aside>
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name * </label>
+            <input type="text" id="name" name="name" placeholder="Please enter your name." required="required">
+          </li>
+          <li>
+            <label for="email">Email * </label>
+            <input type="email" id="email" name="email" placeholder="Please enter your email address. " required="required">
+          </li>
+          <li>
+            <label for="message">Message </label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
     </section>
 
-    <footer>
-     <small class="footer">Jessie Ramirez</small>
-    <small class="footer">&copy; 2018</small>
-    </footer>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        
 
 
-  </body>
-</html>  
+        <ul>
+          <li><a href="https://github.com/jbong0" target="_blank"><img class="social-media" src="images/githublogo.png" alt="Git Hub Logo"></a></li>
+          <li><a href="https://www.linkedin.com/in/jessiebon/" target="_blank"><img class="social-media" src="images/linkedinlogo.png" alt="Linked In Logo"></a></li>
+          <li><a href="https://stackoverflow.com/users/9216731/jessiebon" target="_blank"><img class="social-media" src="images/overflowlogo.png" alt ="Stack Overflow Logo"></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="push"></div>
+</div>
 
-
-
-
-
-
-
-
-
+  <footer>
+    <div class="container">
+      &copy; Copyright 2018 Jessie Ramirez
+    </div>
+  </footer>
+</body>
+</html>
